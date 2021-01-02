@@ -3,6 +3,7 @@ package com.hjw.qiuzhi.service.edu.mapper;
 import com.hjw.qiuzhi.service.edu.entity.Subject;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.hjw.qiuzhi.service.edu.entity.vo.SubjectVo;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
  * @author hjw
  * @since 2020-12-13
  */
+@Repository
 public interface SubjectMapper extends BaseMapper<Subject> {
 
     /**

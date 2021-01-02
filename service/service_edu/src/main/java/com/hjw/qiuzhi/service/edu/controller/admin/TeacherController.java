@@ -69,9 +69,9 @@ public class TeacherController {
 
     /**
      * 分页查询讲师列表
-     * @param page
-     * @param limit
-     * @return
+     * @param page 当前页码
+     * @param limit 每页记录数
+     * @return 讲师列表
      */
     @ApiOperation("讲师分页列表")
     @GetMapping("list/{page}/{limit}")

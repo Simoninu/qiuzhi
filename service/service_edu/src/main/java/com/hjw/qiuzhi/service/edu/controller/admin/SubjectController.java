@@ -41,6 +41,11 @@ public class SubjectController {
     @Autowired
     private SubjectService subjectService;
 
+    /**
+     * Excel批量导入课程类别数据
+     * @param file excel文件
+     * @return
+     */
     @ApiOperation("Excel批量导入课程类别数据")
     @PostMapping("import")
     public R batchImport(
